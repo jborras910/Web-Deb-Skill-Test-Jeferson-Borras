@@ -1,0 +1,741 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  transition-timing-function: ease-in !important;
+  transition: all 0.1s !important;
+}
+body {
+  background-color: black !important;
+}
+.header {
+  color: white;
+  text-align: center;
+  padding-top: 65px !important;
+  font-weight: 400;
+  padding-bottom: 7px !important;
+  margin: 0px auto !important;
+  font-size: 15px;
+  width: 100%;
+}
+.header span {
+  text-decoration: underline;
+  margin-left: 10px !important;
+}
+.main-container {
+  background-color: white;
+  position: relative;
+  padding: 10px;
+
+  width: 100%;
+  margin: 0px auto !important;
+}
+.main-container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px !important;
+}
+.main-container-header div {
+  width: 100%;
+}
+
+.main-container-header .logo {
+  margin: 0 auto !important;
+}
+.main-container-header .logo {
+  width: 45%;
+}
+.signIn {
+  padding-right: 50px !important;
+}
+
+.main-container-header .signIn a {
+  border: 1px solid black;
+  padding: 12px 20px !important;
+  margin: 6px !important;
+  border-radius: 20px;
+  float: right;
+  color: black;
+  font-size: 13px;
+  font-weight: 600;
+}
+.main-container-header .signIn .active-link {
+  color: white !important;
+  background-color: black !important;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 140px !important;
+  margin-top: 25px !important;
+  border-top: 1px solid rgba(22, 22, 26, 0.18);
+  border-bottom: 2px solid rgba(22, 22, 26, 0.18);
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2) !important;
+}
+.mobile-nav {
+  display: none;
+}
+.nav-link {
+  padding-top: 10px !important;
+  color: black;
+  font-weight: 600;
+}
+.navbar-collapse {
+  padding-top: 30px !important;
+}
+
+.navigation .navlinks a {
+  margin: 0 55px !important;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+.section-1 {
+  padding: 5% !important;
+}
+.section-1 .economist h6 {
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  display: flex;
+}
+
+.section-1 .magazine h6 {
+  font-size: 17px;
+  font-weight: 700;
+  display: flex;
+}
+.magazine .title {
+  border-bottom: 2px solid black;
+  width: 95%;
+}
+.economist .title {
+  border-bottom: 2px solid #e3e3e3d1;
+}
+.economist .title h5 {
+  display: none;
+}
+
+.section-1 .magazine h6 span,
+.section-1 .economist h6 span {
+  font-size: 10px;
+  background-color: #e50914;
+  color: white;
+  padding: 5px 10px !important;
+  border-radius: 20px;
+  margin-left: 10px !important;
+  display: inline-block;
+  margin-bottom: 10px !important;
+}
+.section-1 .economist .see_more {
+  color: black !important;
+  font-size: 13px;
+  font-weight: 600;
+}
+.section-2 .title .see_more {
+  display: none;
+}
+.pro {
+  display: none;
+}
+.section-1 .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.magazine img {
+  width: 95%;
+  margin-top: 30px !important;
+  margin-bottom: 50px !important;
+  height: auto;
+}
+.magazine a {
+  background-color: #e3e3e3d1;
+  text-transform: uppercase;
+  color: black;
+  padding: 5px 10px !important;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+.magazine h4 {
+  width: 95%;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+}
+.publish {
+  text-transform: uppercase;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  padding-right: 25px !important;
+}
+.section-1 .content-container {
+  margin-top: 30px !important;
+}
+.section-1 .content {
+  margin-top: 20px !important;
+  margin-bottom: 0px !important;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 80px !important;
+}
+.content p {
+  font-weight: 600;
+  font-size: 14px;
+}
+.content span {
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.content img {
+  width: 120px !important;
+  margin-right: 10px !important;
+  height: auto;
+}
+.section-2 {
+  padding: 0% 5% !important;
+}
+
+.section-2 .title {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 2px solid #e3e3e3d1;
+}
+.section-2 .title h6 {
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  padding-bottom: 10px !important;
+  display: flex;
+}
+.section-2 .title h6 span {
+  font-size: 10px;
+  background-color: #e50914;
+  color: white;
+  padding: 5px 10px !important;
+  border-radius: 20px;
+  margin-left: 10px !important;
+  display: inline-block;
+}
+.section-2 .magazine-content {
+  margin: 10px auto !important;
+  padding: 15px !important;
+}
+.magazine-content img {
+  width: 100%;
+  margin-bottom: 13px !important;
+  height: auto;
+}
+.section-2 .magazine-content h6 {
+  margin-bottom: 10px !important;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+.magazine-content-body a {
+  background-color: #e3e3e3d1;
+  text-transform: uppercase;
+  color: black;
+  padding: 2px 10px !important;
+  font-size: 12px;
+
+  font-weight: 600;
+  border-radius: 20px;
+}
+.magazine-content-body p {
+  padding-top: 10px !important;
+
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 8px !important;
+}
+.magazine-content-body span {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+.more-stories {
+  border: 1px solid black;
+  padding: 12px 20px !important;
+  margin-right: 2px !important;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+.more-stories:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+.section-3 {
+  padding: 5% !important;
+}
+.section-3 .title {
+  border-bottom: 1px solid #e3e3e3d1;
+  margin-bottom: 20px !important;
+}
+.section-3 .title h6 {
+  font-size: 17px;
+  font-weight: 700;
+  padding-bottom: 15px !important;
+}
+.freeReads {
+  padding-right: 60px !important;
+}
+.freeReads .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.freeReads .title span {
+  font-size: 10px;
+  background-color: black;
+  color: white;
+  margin-left: 10px !important;
+  position: absolute;
+  top: 0px;
+  padding: 5px 10px !important;
+  border-radius: 15px;
+}
+.freeReads .title p {
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.newsLetter .newsLetter-content h6 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px !important;
+}
+.newsLetter .newsLetter-content p {
+  font-size: 17px;
+  padding-bottom: 10px !important;
+  font-weight: 500;
+}
+.form-group {
+  margin: 10px auto !important;
+}
+.form-group label {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+}
+.form-group input {
+  width: 100%;
+  padding: 8px !important;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+form button {
+  background-color: black !important;
+  color: white !important;
+  padding: 8px !important;
+  width: 100%;
+  text-transform: uppercase;
+  margin: 10px auto !important;
+}
+.form-group ::placeholder {
+  color: white;
+}
+.freeReads-content {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-bottom: 40px !important;
+  padding-right: 20px !important;
+}
+.freeReads-content img {
+  width: 200px;
+  height: auto;
+  margin-right: 5px !important;
+}
+.freeReads-content-body {
+  padding: 5px !important;
+}
+.freeReads-content-body h6 {
+  font-size: 14px;
+  margin-bottom: 10px !important;
+  font-weight: 700;
+}
+.freeReads-content-body p {
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 10px !important;
+  font-size: 14px;
+}
+.freeReads-content-body span {
+  text-transform: uppercase;
+  margin-bottom: 10px !important;
+  font-weight: 600;
+  font-size: 12px;
+  display: block;
+}
+.freeReads-content-body a {
+  background-color: #e3e3e3d1;
+  text-transform: uppercase;
+  color: black;
+  padding: 5px 10px !important;
+  font-size: 10px;
+  font-weight: 600;
+
+  border-radius: 20px;
+}
+.footer {
+  background-color: black;
+  padding: 3% 6% !important;
+}
+.footer-body {
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 30px !important;
+}
+.footer-content {
+  padding: 10px !important;
+}
+.footer-content h6 {
+  font-size: 13px !important;
+  margin-bottom: 20px !important;
+}
+.footer-content p {
+  font-weight: 300;
+  margin-bottom: 10px !important;
+  font-size: 14px;
+}
+.footer-content i {
+  padding: 0px 5px !important;
+}
+.footer-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px !important;
+  color: grey;
+}
+.faq-container {
+  display: none;
+}
+
+.faq-question {
+  width: 100% !important;
+}
+
+.question h3 {
+  color: white !important;
+  font-size: 13px;
+}
+
+.question {
+  padding: 5px 10px !important;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: transparent !important;
+  cursor: pointer;
+  position: relative;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px !important;
+}
+
+.answer {
+  font-size: 13px;
+  overflow: hidden;
+  color: white;
+  padding: 5px 10px !important;
+  display: none;
+  border-bottom: 1px solid white;
+}
+
+.question i {
+  width: 10% !important;
+  color: white !important;
+  font-size: 15px;
+}
+
+.footer-footer p {
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1500px) {
+  .header {
+    width: 100%;
+    padding: 45px 30px 22px !important;
+    font-size: 11px;
+  }
+  .header span {
+    padding-top: 5px;
+    display: block;
+  }
+  .main-container {
+    width: 100%;
+  }
+  .main-container-header {
+    display: none;
+  }
+  .navigation {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px 25px !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white !important;
+
+    margin-bottom: 5px !important;
+  }
+  .navbar-nav {
+    text-align: left;
+  }
+  .mobile-nav div {
+    text-align: center;
+    font-size: 13px !important;
+  }
+  .mobile-nav img {
+    width: 70%;
+    margin: 0 auto !important;
+  }
+
+  .navbar-toggler {
+    border: none !important;
+    font-size: 15px;
+
+    outline: none !important;
+  }
+
+  .navbar-toggler-icon {
+    font-weight: 600;
+  }
+  .mobile-nav .fa-user {
+    background-color: black;
+    padding: 8px !important;
+    color: white;
+    font-size: 11px;
+    border-radius: 50%;
+  }
+  .section-1 {
+    padding: 5% 0% !important;
+  }
+  .section-1 .magazine h6 {
+    font-size: 15px;
+  }
+  .section-1 .magazine h6 span {
+    font-size: 10px;
+  }
+  .section-1 .pro {
+    font-size: 10px;
+
+    right: 10px;
+    position: absolute;
+  }
+  .magazine .title {
+    width: 100%;
+  }
+  .magazine img {
+    width: 100%;
+
+    margin-bottom: 0px !important;
+  }
+  .section-1 .magazine h6 {
+    padding-left: 20px !important;
+    padding-bottom: 10px !important;
+    font-size: 20px;
+  }
+
+  .section-1 .magazine-content {
+    padding: 20px !important;
+  }
+  .section-1 .magazine-content a {
+    font-size: 10px;
+  }
+  .section-1 .magazine-content h4 {
+    margin-top: 20px !important;
+    font-size: 18px;
+  }
+  .section-1 .magazine-content span {
+    font-size: 11px;
+  }
+  .see_more {
+    display: none;
+  }
+  .economist {
+    margin-top: 8% !important;
+    padding: 0% 20px !important;
+  }
+  .economist .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .economist .title h6 {
+    padding-bottom: 10px !important;
+
+    display: none;
+  }
+  .economist .title h5 {
+    font-size: 15px;
+    display: inline-block;
+  }
+  .economist .title span {
+    display: none !important;
+  }
+  .pro {
+    display: block;
+
+    background-color: #e50914;
+    margin-right: 10px !important;
+    color: white;
+    padding: 2px 10px !important;
+    border-radius: 10px;
+    margin-bottom: 15px !important;
+  }
+  .economist .content {
+    padding: 0px 9px !important;
+  }
+
+  .economist .content p {
+    font-size: 13px;
+  }
+  .economist .content span {
+    font-size: 10px;
+  }
+
+  .section-2 {
+    padding: 10% 20px !important;
+  }
+  .section-2 .title h6 {
+    font-size: 15px;
+    padding-left: 5px !important;
+    font-weight: 700;
+  }
+  .section-2 .title .see_more {
+    display: block;
+    color: black;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .section-2 .magazine-content h6 {
+    font-size: 13px;
+  }
+  .section-2 .magazine-content a {
+    font-size: 10px;
+  }
+  .section-2 .magazine-content h4 {
+    font-size: 12px;
+    border: 2px solid red;
+  }
+  .section-3 {
+    padding: 15px !important;
+  }
+
+  .section-3 .title h6 {
+    font-size: 15px;
+
+    margin-bottom: 0px !important;
+  }
+  .newsLetter-content h6 {
+    font-size: 15px !important;
+    font-weight: 700;
+  }
+  .newsLetter-content p {
+    font-size: 15px !important;
+    font-weight: 600;
+
+    padding-right: 10px !important;
+  }
+  .form-group label {
+    display: none;
+  }
+  .form-group input,
+  .btn {
+    width: 100%;
+    font-size: 14px !important;
+    margin: 0px !important;
+    font-weight: 400;
+    padding: 5px !important;
+
+    border: 1px solid grey;
+  }
+  .freeReads {
+    margin-top: 60px !important;
+    width: 100%;
+    padding: 10px !important;
+  }
+  .form-group ::placeholder {
+    color: grey;
+  }
+  .freeReads-content {
+    padding: 0px !important;
+
+    margin-bottom: 20px !important;
+  }
+  .freeReads-content img {
+    width: 110px !important;
+    height: auto;
+    margin: 0px auto !important;
+  }
+
+  .freeReads-content-body h6 {
+    font-size: 12px;
+  }
+  .freeReads-content-body p,
+  .freeReads-content-body span {
+    font-size: 10px;
+  }
+  .freeReads-content-body a {
+    display: none;
+  }
+  .footer {
+    padding: 10px !important;
+  }
+  .footer-body {
+    flex-direction: column;
+    display: none;
+  }
+  .footer-footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-footer {
+    padding: 10px 15px !important;
+  }
+  .footer-footer p {
+    font-size: 14px;
+  }
+  .footer-footer .title {
+    margin-bottom: 10px !important;
+  }
+  .footer-footer img {
+    padding-top: 10px !important;
+  }
+  .faq-container {
+    display: block;
+    padding: 10px 15px !important;
+  }
+}
